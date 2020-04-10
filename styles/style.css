@@ -1,5 +1,9 @@
 body {
   font-family: 'Montserrat';
   margin: 0;
+  padding-left: 20px;
   background-color: gainsboro;
+}
+h1 {
+  font-family: 'Montserrat';
 }
