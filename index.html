@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel='stylesheet'>
+  <link rel="shortcut icon" href="content/favicon.ico">
 </head>
 <body>
   <header>
     <div>
       <h1>Legacy</h1>
-      <Button>
-        <a href="http://fortepan.hu/_photo/display/134849.jpg" target="_blank" alt="Fortepan-134849">Picture</a>
+      <Button onclick="window.open('http://fortepan.hu/_photo/display/134849.jpg', '_blank')">
+        <!-- <a href="http://fortepan.hu/_photo/display/134849.jpg" target="_blank" alt="Fortepan-134849">Picture</a> -->
+        Picture
+      </Button>
+      <Button onclick="location.href='about.html'">
+        <!-- <a href="pages/hello.html" target="_blank" alt="Fortepan-134849">Hello</a> -->
+        Hello
       </Button>
     </div>
   </header>
