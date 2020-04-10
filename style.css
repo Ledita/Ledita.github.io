@@ -11,8 +11,11 @@ header {
   position: absolute;
   top: 0px;
 }
+body {
+  font-family: 'Advent Pro';
+  margin: 0;
+}
 h1 {
-  font-family: 'Courier New';
   color: black;
   background-color: transparent;
   padding-top: initial;
@@ -42,13 +45,13 @@ img:hover {
   margin: 0px;
 }
 a:visited {
+  text-decoration: none;
   color: green;
   background-color: transparent;
-  text-decoration: none; 
 }
 a:hover {
-  color: deeppink;
   text-decoration: none;
+  color: deeppink;
 }
 button {
   width: auto;
@@ -57,4 +60,9 @@ button {
   margin: 5px;
   padding: 10px;
   background: powderblue;
+  font-family: 'Advent Pro';
+}
+
+a:link {
+  text-decoration: none;
 }
