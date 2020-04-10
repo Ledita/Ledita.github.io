@@ -43,6 +43,10 @@ header {
   img:hover {
     width: 400px;
     margin: 0px;
+    border-style: solid;
+    border-width:20px;
+    border-color: silver;
+    padding-left: 0px;
   }
   a:visited {
     text-decoration: none;
