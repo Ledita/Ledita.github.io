@@ -40,6 +40,28 @@ header {
     margin: 80px;
     padding-left: 20px;
   }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: transparent;
+    color: midnightblue;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
   img:hover {
     width: 400px;
     margin: 0px;
