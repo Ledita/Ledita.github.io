@@ -35,9 +35,9 @@ header {
   a {
       padding-left: 20px;
   }
-  img {
+    img {
     width: 300px;
-    margin: 70px;
+    margin: 80px;
     padding-left: 20px;
   }
   img:hover {
